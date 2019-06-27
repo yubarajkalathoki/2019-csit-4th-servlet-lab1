@@ -27,5 +27,13 @@
     <servlet-name>loginSuccessServlet</servlet-name>
     <url-pattern>/success</url-pattern>
   </servlet-mapping>
-  
+<!--   signup servlet ko lagi -->
+  <servlet>
+    <servlet-name>signupServlet</servlet-name>
+    <servlet-class>SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signupServlet</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
 </web-app>
