@@ -19,8 +19,4 @@ public class DatabaseConnection {
 
 	}
 
-	public static void main(String[] args) {
-		DatabaseConnection dc = new DatabaseConnection();
-		Connection cn = dc.getConnection();
-	}
 }
